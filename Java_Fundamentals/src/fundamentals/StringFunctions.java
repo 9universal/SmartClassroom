@@ -22,7 +22,7 @@ public class StringFunctions {
 		
 		String name = new String("  LEARNING JAVA  ");
 		String nameL =name.toLowerCase();
-		System.out.println(nameL);
+		//System.out.println(nameL);
 		
 		// Important String Methods
 		
@@ -34,6 +34,10 @@ public class StringFunctions {
 		
 		System.out.println(name);
 		
+		String confirmMessage = "Thank you for your purchase! Booking ID is MPDB00004666407";
+		
+		String[] messageParts = confirmMessage.split(" ");
+		System.out.println(messageParts[messageParts.length-1]);
 		
 	}
 
